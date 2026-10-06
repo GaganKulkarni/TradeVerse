@@ -1,0 +1,16 @@
+.trade-dialog { border: 0; border-radius: 14px; box-shadow: 0 20px 70px #0003; padding: 28px; width: min(440px, calc(100vw - 80px)); color: #26364a; }
+.trade-dialog::backdrop { background: #14233c88; }
+.trade-dialog h2 { margin: 10px 0 24px; }
+.trade-kicker { font-size: 11px; letter-spacing: 1.2px; color: #62748c; }
+.trade-dialog p { line-height: 1.6; font-size: 14px; }
+.trade-dialog label { display: block; margin-top: 24px; margin-bottom: 8px; font-weight: 600; }
+.trade-dialog input { box-sizing: border-box; width: 100%; border: 1px solid #cbd5e1; border-radius: 6px; padding: 12px; font-size: 18px; }
+.trade-total { display: flex; justify-content: space-between; margin: 24px 0; }
+.trade-explanation { color: #617087; }
+.trade-dialog footer { display: flex; justify-content: flex-end; gap: 12px; margin-top: 24px; }
+.trade-dialog button { border: 1px solid #dce3ed; border-radius: 6px; padding: 11px 18px; background: white; cursor: pointer; }
+.trade-dialog .trade-buy { color: white; background: #387ed1; border-color: #387ed1; }
+.trade-dialog .trade-sell { color: white; background: #da572e; border-color: #da572e; }
+.trade-dialog button:disabled { opacity: .5; cursor: not-allowed; }
+.trade-error { color: #b32639; background: #fff1f2; padding: 10px; border-radius: 6px; }
+
