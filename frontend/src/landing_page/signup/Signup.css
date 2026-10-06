@@ -1,0 +1,33 @@
+.auth-page { max-width: 1100px; margin: 0 auto; padding: 64px 24px; display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: center; color: #25364a; }
+.auth-eyebrow { color: #387ed1; font-size: 12px; font-weight: 700; letter-spacing: 2px; }
+.auth-intro h1 { font-size: clamp(30px, 3.2vw, 44px); line-height: 1.2; margin: 18px 0; font-weight: 600; }
+.auth-intro p { color: #617084; line-height: 1.8; }
+.auth-illustration { display: block; width: 100%; max-height: 260px; object-fit: contain; margin: 24px 0; }
+.auth-intro .auth-demo-note { font-size: 12px; }
+.auth-card { border: 1px solid #e3eaf1; border-radius: 16px; padding: 34px; box-shadow: 0 12px 40px #263d5810; background: white; }
+.auth-card h2 { font-size: 26px; margin: 0 0 10px; }
+.auth-subtitle { color: #64748b; font-size: 14px; margin-bottom: 26px; }
+.auth-card fieldset { border: 0; padding: 0; margin: 0; min-width: 0; }
+.auth-field { margin-bottom: 18px; }
+.auth-field label { display: block; font-size: 14px; font-weight: 600; margin-bottom: 7px; }
+.auth-field input { width: 100%; min-width: 0; box-sizing: border-box; border: 1px solid #cbd5e1; border-radius: 7px; padding: 12px; font-size: 16px; color: #25364a; background: #fff; }
+.auth-field input:focus { outline: 2px solid #387ed1; outline-offset: 2px; }
+.auth-field small { display: block; color: #64748b; font-size: 12px; margin-top: 7px; }
+.auth-password { position: relative; }
+.auth-password input { padding-right: 65px; }
+.auth-password button { position: absolute; right: 8px; top: 8px; background: transparent; border: 0; padding: 5px; color: #2863aa; font-size: 14px; }
+.auth-submit { width: 100%; border: 0; border-radius: 7px; background: #387ed1; color: white; padding: 13px; font-weight: 600; margin-top: 4px; }
+.auth-submit:hover { background: #2863aa; }
+.auth-card fieldset:disabled { opacity: .65; }
+.auth-card fieldset:disabled button { cursor: wait; }
+.auth-switch { text-align: center; font-size: 14px; margin: 24px 0 0; }
+.auth-switch a { color: #2863aa; }
+.auth-error, .auth-success { padding: 12px; border-radius: 7px; font-size: 14px; margin-bottom: 18px; }
+.auth-error { background: #fff1f2; color: #a02237; }
+.auth-success { background: #ecfdf5; color: #176442; }
+@media (max-width: 760px) {
+  .auth-page { grid-template-columns: 1fr; padding: 32px 18px; gap: 24px; }
+  .auth-intro { text-align: center; }
+  .auth-illustration { display: none; }
+  .auth-card { padding: 24px; }
+}
