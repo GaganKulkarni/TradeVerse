@@ -1,0 +1,17 @@
+.about-creator { max-width: 1100px; margin: 48px auto; padding: 40px 24px; border-top: 1px solid #e2e8f0; }
+.about-creator h2 { text-align: center; font-size: 32px; margin: 0 0 48px; color: #25364a; }
+.creator-layout { display: grid; grid-template-columns: 340px 1fr; gap: 64px; align-items: center; }
+.creator-profile { text-align: center; }
+.creator-portrait { width: 280px; height: 280px; border-radius: 50%; overflow: hidden; margin: 0 auto 24px; background: #edf4fa; }
+.creator-portrait img { width: 100%; height: 100%; object-fit: cover; object-position: 35% 45%; transform: scale(1.45); transform-origin: 35% 42%; }
+.creator-profile h3 { font-size: 25px; color: #25364a; margin-bottom: 8px; }
+.creator-role { color: #64748b; font-size: 15px; }
+.creator-story { color: #58687d; font-size: 17px; line-height: 1.85; }
+.creator-story p { margin-bottom: 20px; }
+.creator-story a { color: #2863aa; }
+@media (max-width: 760px) {
+  .creator-layout { grid-template-columns: 1fr; gap: 24px; }
+  .about-creator { margin-top: 24px; padding: 32px 20px; }
+  .about-creator h2 { font-size: 27px; margin-bottom: 28px; }
+  .creator-portrait { width: 240px; height: 240px; }
+}
