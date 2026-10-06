@@ -1,6 +1,6 @@
 # TradeVerse
 
-An educational paper-trading mini project by Gagan Kulkarni, built with React, Node.js, Express and MongoDB.
+An TradeVerse — Stock Market Trading Platform project by Gagan Kulkarni, built with React, Node.js, Express and MongoDB.
 
 ## Features
 
