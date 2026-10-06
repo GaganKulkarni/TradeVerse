@@ -42,4 +42,4 @@ Delivery-style simulated trades only. Email verification, password recovery, liv
 
 ## Acknowledgement
 
-This mini project builds on the original [TradeVerse repository by vinitVA](https://github.com/vinitVA/TradeVerse). This version includes account authentication, account-specific paper trading, portfolio persistence and interface updates.
+This project builds on the original [TradeVerse repository by vinitVA](https://github.com/vinitVA/TradeVerse). This version includes account authentication, account-specific paper trading, portfolio persistence and interface updates.
